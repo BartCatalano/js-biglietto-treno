@@ -40,3 +40,23 @@ console.log(TicketValue);
 
 // Controlliamo se bisogna applicare uno sconto
 
+let message;             //  variabile globale 
+if (userVAge < 18) {
+    const MDiscount = ((TicketValue / 100) * 20 );
+    const finalTicket = TicketValue - MDiscount;
+    finalTicket.toFixed(2);
+    console.log(finalTicket);
+
+    message = `Il prezzo del biglietto è di ${finalTicket} con lo sconto applicato ai Minori!`
+    console.log(message);     
+}
+else if (userVAge > 65) {
+    const ODiscount = ((TicketValue / 100) * 40 );
+    const finalTicket = TicketValue - ODiscount;
+    finalTicket.toFixed(2);
+    console.log(finalTicket);
+
+    message = `Il prezzo del biglietto è di ${finalTicket} con lo sconto applicato agli Over 65!`
+    console.log(message);     
+}
+
