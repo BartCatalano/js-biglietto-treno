@@ -15,8 +15,8 @@ minorenni sconto del 20%
  età oltre i 65 hanno 40%
 
 <!-- Esecuzione Logica -->
-Chiedere la prima variabile KM
-chiedere seconda variabile Età
+Chiedere la prima variabile Età
+chiedere seconda variabile Km
 convertire input in numeri
 creare prezzo del biglietto tenendo conto solo dei km
 apprlicare le condizionali su età
@@ -24,6 +24,6 @@ se ha meno di 18 applicare 20%
 altrimenti se ha più di 65 anni applicare il 40%
 altrimenti applicare il prezzo pieno
  
- dare un massimo di due numeri oltre la virgola con toFix2
+ dare un massimo di due numeri oltre la virgola con toFixed2
 
- stampare messaggio con prezzo finale per l'utente con consolle.log
+ stampare messaggio con prezzo finale per l'utente 
